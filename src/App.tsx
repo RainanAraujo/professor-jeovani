@@ -10,8 +10,8 @@ export default function App() {
     <>
       <Navbar />
       <main className="bg-gray-100 w-full h-screen -mt-20 max-lg:mt-0 max-xl:pt-20 ">
-        <div className="max-w-7xl m-auto h-full flex  px-20  max-lg:px-10 items-center justify-between  flex-wrap">
-          <div className="w-[45%] max-lg:w-full  flex flex-col max-lg:items-center">
+        <div className="max-w-7xl m-auto h-full flex  px-20  max-lg:px-10 items-center justify-between  max-lg:flex-col">
+          <div className="w-[45%] max-lg:w-full  flex flex-col max-lg:items-center max-lg:mb-6">
             <img src={logo} alt="logo" className="w-full" />
             <p className="text-lg text-zinc-500 mb-2 max-lg:text-center">
               Construindo juntos um IFMA - Campus Maracanã consciente e inovador
@@ -20,7 +20,7 @@ export default function App() {
             <a
               href="/APRESENTACAO_JEOVANI.pdf"
               target="_blank"
-              className="py-2 px-4 flex-none bg-green-500 rounded-md text-white  w-fit"
+              className="py-2 px-4 flex-none bg-green-500 rounded-md text-white   w-fit"
             >
               Acessar plano de gestão
             </a>
