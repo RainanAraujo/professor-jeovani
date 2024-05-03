@@ -20,7 +20,7 @@ export default function App() {
             <a
               href="/APRESENTACAO_JEOVANI.pdf"
               target="_blank"
-              className="py-2 px-4 bg-green-500 rounded-md text-white"
+              className="py-2 px-4 flex-none bg-green-500 rounded-md text-white  w-fit"
             >
               Acessar plano de gestão
             </a>
